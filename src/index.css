@@ -7,7 +7,7 @@ a {
 }
 a:hover {
   color: yellow;
-} 
+}
 
 li {
   list-style: none;
@@ -15,8 +15,6 @@ li {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
 }
