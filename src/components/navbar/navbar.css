@@ -1,6 +1,90 @@
-.app-navbar-background {
+.app-navbar {
   width: 100%;
-  height: 110px;
+  height: 70px;
   background-color: black;
-  z-index: -1;
+}
+.app-navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.app-navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.app-navbar-logo img {
+  width: 150px;
+}
+.app-navbar-wrapper .app-navbar-links {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.app-navbar-wrapper .app-navbar-links li {
+  margin: 15px;
+}
+.app-navbar-login-register {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar-small-screen {
+  display: none;
+}
+.navbar-small-screen-overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  transition: all 6s ease;
+}
+.navbar-cross {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 20px 30px;
+}
+
+.app-navbar-small-screen-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.app-navbar-small-screen-links li {
+  line-height: 50px;
+}
+.app-navbar-small-screen-links li a {
+  font-size: 30px;
+  font-family: fangsong;
+  color: white;
+}
+.app-navbar-small-screen-links li a:hover {
+  color: var(--gold_color);
+}
+
+@media screen and (max-width: 1260px) {
+  .content_width {
+    width: 100%;
+  }
+  .app-navbar {
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .navbar-small-screen {
+    display: block;
+  }
+  .app-navbar-links {
+    display: none !important;
+  }
 }
