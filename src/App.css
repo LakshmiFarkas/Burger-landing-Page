@@ -5,3 +5,8 @@
   width: 1200px;
   margin: 0 auto;
 }
+.fancy-borders {
+  border: 6px solid #0000;
+  border-radius: 4px;
+  background: repeating-conic-gradient(#0000 0 25%, #91853a 0 50%) border-box;
+}

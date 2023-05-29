@@ -4,7 +4,7 @@
   --gold_color: #d1b000;
 }
 html {
-  background-color: rgb(27, 26, 26);
+  background-color: black !important;
 }
 
 a {
@@ -18,6 +18,9 @@ a:hover {
 
 li {
   list-style: none;
+}
+ul {
+  margin: 0;
 }
 
 body {

@@ -34,11 +34,18 @@ function Navbar() {
             <a href="#">Login</a>&nbsp;|&nbsp;<a href="#">Register</a>
           </div>
           <div className="navbar-small-screen">
-            {<FaHamburger size="28px" onClick={() => setToggleMenu(true)} />}
+            {
+              <FaHamburger
+                size="28px"
+                color="white"
+                onClick={() => setToggleMenu(true)}
+              />
+            }
             {toggleMenu && (
               <div className="navbar-small-screen-overlay">
                 <RxCross1
                   size="28px"
+                  color="white"
                   className={newLocal}
                   onClick={() => setToggleMenu(false)}
                 />
@@ -57,6 +64,12 @@ function Navbar() {
                   </li>
                   <li>
                     <a href="#">Contact</a>
+                  </li>
+                  <li>
+                    <a href="#">Login</a>
+                  </li>
+                  <li>
+                    <a href="#">Register</a>
                   </li>
                 </ul>
               </div>

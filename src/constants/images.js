@@ -1,2 +1,3 @@
 import logo from "../assets/logo.png";
-export default { logo };
+import burgerCombo from "../assets/burgerCombo.jpeg";
+export default { logo, burgerCombo };

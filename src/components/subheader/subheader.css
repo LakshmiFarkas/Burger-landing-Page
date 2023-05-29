@@ -1,0 +1,13 @@
+.app-subheader {
+  line-height: 8px;
+  margin-bottom: 20px;
+}
+.box {
+  width: 15%;
+  height: 4px;
+  background-color: #91853a;
+}
+.app-subheader p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 14px;
+}
