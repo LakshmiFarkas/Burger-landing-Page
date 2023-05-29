@@ -1,3 +1,4 @@
 import logo from "../assets/logo.png";
 import burgerCombo from "../assets/burgerCombo.jpeg";
-export default { logo, burgerCombo };
+import fallingBurger from "../assets/fallingBurger.png";
+export default { logo, burgerCombo, fallingBurger };

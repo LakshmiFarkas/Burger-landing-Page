@@ -1,11 +1,12 @@
 import "./App.css";
 import { Navbar, Footer } from "././components";
-import { Header } from "././container";
+import { Aboutus, Header } from "././container";
 function App() {
   return (
     <>
       <Navbar />
       <Header />
+      <Aboutus />
     </>
   );
 }

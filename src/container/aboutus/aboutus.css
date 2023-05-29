@@ -1,0 +1,38 @@
+.app-aboutUs-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.app-aboutUs-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+.app-aboutUs-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-aboutUs-img img {
+  width: 500px;
+}
+.app-aboutUs-wrapper h2 {
+  color: #f1de60;
+}
+.app-aboutUs-wrapper .box {
+  width: 20%;
+}
+@media screen and (max-width: 860px) {
+  .app-aboutUs-wrapper {
+    flex-direction: column;
+  }
+  .app-aboutUs-wrapper .box {
+    width: 10%;
+  }
+  .app-aboutUs-img img {
+    width: 80%;
+  }
+}
