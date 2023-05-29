@@ -1,6 +1,5 @@
 .app-header {
   display: grid;
-}
-.app-header-info {
-  padding-right: ;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
 }
