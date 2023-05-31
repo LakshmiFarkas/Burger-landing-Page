@@ -23,9 +23,7 @@ function Navbar() {
             <li>
               <a href="#menu">Menu</a>
             </li>
-            <li>
-              <a href="#blog">blog</a>
-            </li>
+
             <li>
               <a href="#contact">Contact</a>
             </li>

@@ -1,0 +1,36 @@
+.app-video {
+  height: 70vh;
+  position: relative;
+}
+.app-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.app-video-overlay {
+  display: flex;
+  position: absolute;
+  background: #0000008b;
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+}
+.app-video:hover .app-video-overlay-circle {
+  display: flex;
+}
+.app-video-overlay-circle {
+  display: none;
+  border-radius: 50%;
+  border: 2px solid rgb(243, 243, 210);
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .app-video {
+    height: auto;
+  }
+  .app-video video {
+    object-fit: contain;
+  }
+}

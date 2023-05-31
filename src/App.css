@@ -19,3 +19,8 @@
   background-color: #e9d65e;
   margin-top: -6px;
 }
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

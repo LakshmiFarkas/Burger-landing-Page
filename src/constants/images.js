@@ -7,6 +7,7 @@ import BBQChicken_Burger from "../assets/BBQChicken Burger.png";
 import Chrispy_Chicken_Burger from "../assets/Chrispy Chicken Burger.png";
 import Hawaiian_Burger from "../assets/Hawaiian Burger.png";
 import Cheese_Burger from "../assets/Cheese Burger.png";
+import woodenBg from "../assets/woodenBG.jpeg";
 export default {
   logo,
   burgerCombo,
@@ -17,4 +18,5 @@ export default {
   Chrispy_Chicken_Burger,
   Hawaiian_Burger,
   Cheese_Burger,
+  woodenBg,
 };
