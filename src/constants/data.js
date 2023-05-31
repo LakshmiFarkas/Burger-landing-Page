@@ -1,35 +1,41 @@
-const burger = [
+import images from "./images";
+const burgers = [
   {
-    title: "Veg Burger",
+    title: "Veg burger",
     prize: "6$",
+    img_src: images.Veg_burger,
     ingr: "grren veggies, onion, tomatos,sauce, cheese",
   },
-  { title: "Chicken Burger", prize: "6$", ingr: "chicken, onion, lattuce" },
-  { title: "Cheese Burger", prize: "8$", ingr: "cheese, bufallo" },
+  {
+    title: "Chicken Burger",
+    prize: "6$",
+    img_src: images.Chicken_Burger,
+    ingr: "chicken, onion, lattuce",
+  },
+
   {
     title: "BBQChicken Burger",
     prize: "9$",
+    img_src: images.BBQChicken_Burger,
     ingr: "Chicken, bbq suace, oinion",
   },
   {
     title: "Chrispy Chicken Burger",
     prize: "9$",
+    img_src: images.Chrispy_Chicken_Burger,
     ingr: "fried chicken, lettuce, tomato",
   },
   {
     title: "Hawaiian Burger",
     prize: "9$",
+    img_src: images.Hawaiian_Burger,
     ingr: "special saucy chichen, pineapple",
   },
-  { title: "Spicy Chicken Burger", prize: "8$", ingr: "chicken, spice,chilli" },
   {
-    title: "Chef's Special Burger",
-    prize: "6$",
-    ingr: "chicken,special sauce, lettuce, oinion",
+    title: "Cheese Burger",
+    prize: "8$",
+    img_src: images.Cheese_Burger,
+    ingr: "cheese, bufallo",
   },
 ];
-const beverage = [
-  { title: "soft drinks", prize: "2$" },
-  { title: "milk shakes", prize: "5$" },
-  { title: "Tropical mix", prize: "6$" },
-];
+export default { burgers };

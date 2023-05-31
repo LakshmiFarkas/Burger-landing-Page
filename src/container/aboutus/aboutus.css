@@ -1,3 +1,6 @@
+.app-aboutUs {
+  background-color: black;
+}
 .app-aboutUs-wrapper {
   display: flex;
   flex-direction: row;

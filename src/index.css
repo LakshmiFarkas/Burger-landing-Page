@@ -3,11 +3,11 @@
   color: white;
   --gold_color: #d1b000;
 }
+
 html {
   background-color: black !important;
 }
 * {
-  background-color: black;
   color: rgb(211, 204, 204);
 }
 a {
