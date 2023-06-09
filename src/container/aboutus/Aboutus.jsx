@@ -1,6 +1,8 @@
 import React from "react";
 import "./aboutus.css";
 import images from "../../constants/images";
+import AnimateDiv from "../AnimateDiv";
+import { easeIn, easeOut, motion } from "framer-motion";
 
 const Aboutus = () => {
   return (
@@ -15,13 +17,22 @@ const Aboutus = () => {
             perferendis facilis, quas soluta laboriosam maxime amet sed quasi.
             Vitae, repudiandae libero!
           </p>
-          <button className="btn btn-warning btn-sm"> Read more</button>
+          <motion.button
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, type: "tween" }}
+            viewport={{ once: true }}
+            className="btn btn-warning btn-sm"
+          >
+            {" "}
+            Read more
+          </motion.button>
         </div>
-        <div className="app-aboutUs-img">
+        <div className="app-aboutUs-img ">
           <img src={images.fallingBurger} />
         </div>
 
-        <div className="app-aboutUs-history">
+        <div className="app-aboutUs-history ">
           <h2>Our history</h2>
           <div className="box"></div>
           <p>
@@ -30,7 +41,15 @@ const Aboutus = () => {
             perferendis facilis, quas soluta laboriosam maxime amet sed quasi.
             Vitae, repudiandae libero!
           </p>
-          <button className="btn btn-warning btn-sm">Read more</button>
+          <motion.button
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, type: "tween" }}
+            viewport={{ once: true }}
+            className="btn btn-warning btn-sm"
+          >
+            Read more
+          </motion.button>
         </div>
       </div>
     </div>

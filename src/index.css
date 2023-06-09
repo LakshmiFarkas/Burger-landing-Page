@@ -6,6 +6,7 @@
 
 html {
   background-color: black !important;
+  scroll-behavior: smooth;
 }
 * {
   color: rgb(211, 204, 204);

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import images from "../../constants/images";
 import { FaHamburger } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
+import AnimateDiv from "../../container/AnimateDiv";
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const newLocal = "navbar-cross";
@@ -10,27 +11,33 @@ function Navbar() {
     <>
       <div className="app-navbar">
         <div className="app-navbar-wrapper content_width">
-          <div className="app-navbar-logo">
-            <img src={images.logo} />
-          </div>
-          <ul className="app-navbar-links">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#menu">Menu</a>
-            </li>
+          <AnimateDiv dir="down">
+            <div className="app-navbar-logo">
+              <img src={images.logo} />
+            </div>
+          </AnimateDiv>
+          <AnimateDiv dir="down">
+            <ul className="app-navbar-links">
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#menu">Menu</a>
+              </li>
 
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-          <div className="app-navbar-login-register">
-            <a href="#">Login</a>&nbsp;|&nbsp;<a href="#">Register</a>
-          </div>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </AnimateDiv>
+          <AnimateDiv dir="down">
+            <div className="app-navbar-login-register">
+              <a href="#">Login</a>&nbsp;|&nbsp;<a href="#">Register</a>
+            </div>
+          </AnimateDiv>
           <div className="navbar-small-screen">
             {
               <FaHamburger
