@@ -8,16 +8,16 @@ Burger restuarant website - frontend using ReactJS
 ##Steps:
 1. Clone the repository:
    
-   git clone https://github.com/LakshmiFarkas/react-project
+  ```shell git clone https://github.com/LakshmiFarkas/react-project
    
-3. Navigate to the Project Directory:
-   cd react-project
+2. Navigate to the Project Directory:
+```shell   cd react-project
    
-4. Install Dependencies:
-   npm install
+3. Install Dependencies:
+ ```shell  npm install
    
-5. Install framer motion:
-   npm install framer-motion
+4. Install framer motion:
+ ```shell  npm install framer-motion
    
-6. Start the Development Server:
-   npm run dev
+5. Start the Development Server:
+ ```shell  npm run dev
